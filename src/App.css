@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+*{
+    font-family: 'Langar', cursive;
+    
+}
+/*CABEZERA*/
+.cabezera{
+    color: red;
+    padding-top: 50px;
+    text-shadow: -7px 0px 2px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 60px;
+    background-image: url("./assets/fondo.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.cabezera .dos{
+    color: yellow;
+    text-shadow: -7px 0px 2px rgb(0, 0, 0);
+}
+.cabezera .tres{
+    color: blue;
+    text-shadow: -7px 0px 2px rgb(0, 0, 0);
+}
+/*NAV*/
+.nav{
+    background: rgb(170, 0, 0);
+    padding: 20px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all 200ms;
+}
+.nav .uno:hover{
+    color: red;
+    transform: scale(1.2);
+}
+.nav .dos:hover{
+    color: yellow;
+    transform: scale(1.2);
+}
+.nav .tres:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+/*PIE*/
+.pie{
+    background: rgb(170, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.pie .red{
+    display: grid;
+    grid-template-areas:"uno uno uno"
+                        " dos tres cuatro";
+    
+    justify-content: space-evenly;
+}
+.pie p{
+    grid-area: uno;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+.pie img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 26px;
+}
+.red .uno{
+    grid-area: dos;
+}
+.red .dos{
+    grid-area: tres;
+}
+.red .tres{
+    grid-area: cuatro;
+}
+.telefono .num{
+    color: black;
+    font-weight: bolder;
+}
+/*INCIO*/
+.back1{
+    background-image: url("./assets/fondo.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.video-bg{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.dir{
+    display: flex;
+    gap: 20px;
+}
+.dir1{
+    background: rgba(255, 0, 0, 0.249);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    color:  blue;
+    font-size: 18px;
+}
+.map{
+    text-align: center;
+    color: yellow;
+    text-shadow: 1px 5px 10px black;
+    font-size: 40px;
+}
+.dir img{
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.prueba{
+    background-image: url("./assets/game.jpg");
+    background-size: cover;
+    text-align: center;
+    margin: 20px;
+    padding: 100px;
+    border-radius: 20px;
+    
+}
+.solucion{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.elJuego{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+.titttt{
+    text-align: center;
+    color: yellow;
+    text-shadow: 1px 5px 10px black;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.elJuego img{
+   width: 300px;
+   border-radius: 20px;
+   transition: all 500ms;
+}
+.elJuego img:hover{
+    transform: scale(1.1);
+    border-radius: 1px 1px black;
+    
+}
+/*contact*/
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact label{
+    color: blue;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 10px black;
+    margin: 10px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.contact input{
+    border: none;
+    background-color: gainsboro;
+    padding: 10px;
+    margin-left: -150px;
+    margin-right: -150px;
+    border-radius: 10px;
+}
+.contact [type=submit]{
+    background-color: red;
+    margin-left: -70px;
+    margin-right: -70px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 250ms;
+}
+.contact [type=submit]:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: blue;
+}
+.contact textarea{
+    border: none;
+    background-color: gainsboro;
+    margin-left: -150px;
+    margin-right: -150px;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.contact img{
+    border-radius: 50%;
+    width: 60%;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
